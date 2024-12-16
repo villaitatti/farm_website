@@ -13,3 +13,34 @@
 .card img {
     width: 100%;
 }
+
+  table.nutritional-values {
+    border-collapse: collapse;
+    margin: 1em 0;
+    width: 60%;
+    max-width: 400px;
+  }
+
+  table.nutritional-values th, 
+  table.nutritional-values td {
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+    text-align: left;
+  }
+
+  table.nutritional-values th {
+    background-color: #f8f8f8;
+    font-weight: bold;
+  }
+
+  table.nutritional-values td {
+    background-color: #fff;
+  }
+
+  table.nutritional-values tr:nth-child(even) td {
+    background-color: #f9f9f9;
+  }
+
+  table.nutritional-values tr:hover td {
+    background-color: #eef;
+  }
