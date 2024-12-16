@@ -62,24 +62,30 @@ description: "Vino Rosso Toscana, annata 2024"
   </tr>
 </table>
 
-### Ingredienti
-
-- Uva
-
-### Conservanti
-
-- blabla
-
-### Stabilizzanti
-
-- bla
-- bla
-
+<h3>
+Ingredienti:
+</h3>
+<ul>
+  <li>Uva</li>
+</ul>
+<h3>
+Conservanti:
+</h3>
+<ul>
+  <li>Metabisolfito di potassio</li>
+</ul>
+<h3>
+Stabilizzanti:
+</h3>
+<ul>
+  <li>Poliaspartato di potassio</li>
+  <li>Gomma arabica</li>
+</ul>
 </div>
 
   <!-- Right Column -->
-  <div style="flex: 1; text-align: center;">
-    <img src="/assets/images/vino/rosso-toscana/2024-rosso-roscana-label.png" alt="Etichetta Rosso Toscana 2024" style="max-width: 100%; height: auto;">
+  <div style="flex: 1; text-align: left;">
+    <img src="/assets/images/vino/rosso-toscana/2024-rosso-roscana-label.png" alt="Etichetta Rosso Toscana 2024" style="max-width: 300px; height: auto;">
   </div>
 
 </div>
