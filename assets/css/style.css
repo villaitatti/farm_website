@@ -14,10 +14,36 @@
     width: 100%;
 }
 
+
+/* WINE PAGE */
+    .wine-page {
+        display: flex;
+        align-items: flex-start;
+        /* No extra gap here. We'll control spacing via margin. */
+    }
+
+    /* Left column: fixed width so it doesn't stretch too far */
+    .wine-info {
+        width: 20vw;
+        /* Adjust as needed */
+        margin-right: 0.5rem;
+        /* small gap between text and image */
+    }
+
+    /* Right column: just the image, aligned left by default */
+    .wine-image img {
+        display: block;
+        max-width: 300px;
+        height: auto;
+        margin: 0;
+        /* no extra margins */
+    }
+
+/* NUTRITIONAL VALUES */
   table.nutritional-values {
     border-collapse: collapse;
     margin: 1em 0;
-    width: 60%;
+    width: 95%;
     max-width: 400px;
     margin-top: 20px;
   }

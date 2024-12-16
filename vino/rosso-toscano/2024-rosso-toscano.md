@@ -4,30 +4,6 @@ title: "Rosso Toscano 2024"
 description: "Vino Rosso Toscano, annata 2024"
 ---
 
-<style>
-
-    .wine-page {
-    display: flex;
-    align-items: flex-start;
-    /* No extra gap here. We'll control spacing via margin. */
-  }
-
-  /* Left column: fixed width so it doesn't stretch too far */
-  .wine-info {
-    width: 250px; /* Adjust as needed */
-    margin-right: 10px; /* small gap between text and image */
-  }
-
-  /* Right column: just the image, aligned left by default */
-  .wine-image img {
-    display: block;
-    max-width: 300px;
-    height: auto;
-    margin: 0; /* no extra margins */
-  }
-
-</style>
-
 <h1 class="page-wine-title">Rosso Toscano 2024</h1>
 
 <div class="wine-page">
