@@ -6,10 +6,10 @@ description: "Vino Rosso Toscano, annata 2024"
 
 <section class="hero-section">
   <div class="hero-overlay">
+  <h1 class="page-wine-title">Rosso Toscano 2024</h1>
     <div class="hero-content">
-      <h1 class="page-wine-title">Rosso Toscano 2024</h1>
 
-<div class="wine-page">
+<div class="wine-page hero-text">
 
   <!-- Left Column -->
   <div class="wine-info">
