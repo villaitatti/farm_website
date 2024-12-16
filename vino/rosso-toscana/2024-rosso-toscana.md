@@ -10,14 +10,21 @@ Benvenuti nella pagina dedicata al nostro **Rosso Toscana 2024**. Qui troverete 
 
 ![Etichetta del Rosso Toscana 2024](/assets/images/wines/rosso-toscana/rosso-toscana-2024-label.jpg)
 
-## Valori Nutrizionali (per 100ml)
+<table>
+  <tr>
+    <th>Valori nutrizionali medi</th>
+    <th colspan="2">100 ml</th>
+  </tr>
+  <tr>
+    <td>Energia</td>
+    <td>Kj</td>
+    <td>322</td>
+  </tr>
+  <tr>
+    <td>Energia</td>
+    <td>Kcal</td>
+    <td>77</td>
+  </tr>
+</table>
 
-- **Energia:** XX kJ / XX kcal
-- **Grassi:** X g  
-- **di cui saturi:** X g  
-- **Carboidrati:** X g  
-- **di cui zuccheri:** X g  
-- **Proteine:** X g  
-- **Sale:** X g
 
-*Nota: I valori sopra sono indicativi e possono variare leggermente a seconda del lotto.*
