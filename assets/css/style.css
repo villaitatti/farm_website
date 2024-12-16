@@ -208,4 +208,8 @@ ul li ul li a {
         font-size: 1.2em;
         /* Slightly smaller title on mobile */
     }
+
+    .site-title {
+        font-size: 1.2em;
+    }
 }
