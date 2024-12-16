@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <style>
+    /* Minimal styling overrides or additional styles */
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      padding: 10px 20px;
+      background: #f8f8f8;
+      border-bottom: 1px solid #ddd;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header .site-title {
+      font-size: 1.5em;
+      font-weight: bold;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="site-title">{{ site.title }}</div>
+  {% include nav.html %}
+</header>
+
+<main style="padding: 20px;">
+  {{ content }}
+</main>
+
+</body>
+</html>
