@@ -4,8 +4,6 @@ title: "Rosso Toscano 2024"
 description: "Vino Rosso Toscano, annata 2024"
 ---
 
-# Rosso Toscano 2024
-
 <style>
   .wine-page {
     display: flex;
@@ -66,7 +64,13 @@ description: "Vino Rosso Toscano, annata 2024"
     background-color: #f8f8f8;
     font-weight: bold;
   }
+
+    .wine-title {
+    color: #ab192d;
+  }
 </style>
+
+<h1 class="wine-title">Rosso Toscano 2024</h1>
 
 <div class="wine-page">
 
