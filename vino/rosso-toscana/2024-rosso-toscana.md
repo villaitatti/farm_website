@@ -24,5 +24,41 @@ Benvenuti nella pagina dedicata al nostro **Rosso Toscana 2024**. Qui troverete 
     <td>Kcal</td>
     <td>77</td>
   </tr>
+  <tr>
+    <td>Grassi</td>
+    <td>g</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>di cui saturi</td>
+    <td>g</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>Carboidrati</td>
+    <td>g</td>
+    <td>0,06</td>
+  </tr>
+  <tr>
+    <td>di cui zuccheri</td>
+    <td>g</td>
+    <td>0,06</td>
+  </tr>
+  <tr>
+    <td>Fibre</td>
+    <td>g</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>Proteine</td>
+    <td>g</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>Sale</td>
+    <td>g</td>
+    <td>0</td>
+  </tr>
+</table>
 
 
