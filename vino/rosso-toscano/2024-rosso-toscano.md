@@ -5,45 +5,25 @@ description: "Vino Rosso Toscano, annata 2024"
 ---
 
 <style>
-  .wine-page {
+
+    .wine-page {
     display: flex;
     align-items: flex-start;
-    flex-wrap: wrap;
+    /* No extra gap here. We'll control spacing via margin. */
   }
 
-  /* Left column: nutritional info */
+  /* Left column: fixed width so it doesn't stretch too far */
   .wine-info {
-    flex: 1 1 300px; /* allows shrinking or growing, minimum about 300px */
-    margin-right: 20px; /* space between the two columns */
+    width: 250px; /* Adjust as needed */
+    margin-right: 10px; /* small gap between text and image */
   }
 
-  /* Right column: image */
-  .wine-image {
-    flex: 0 1 auto; /* let image column be as wide as needed */
-    text-align: left;
-  }
-
+  /* Right column: just the image, aligned left by default */
   .wine-image img {
+    display: block;
     max-width: 300px;
     height: auto;
-    display: block;
-    margin: 0; /* ensure no extra margin on the left */
-  }
-
-  /* Responsive design: On small screens, stack the columns */
-  @media (max-width: 600px) {
-    .wine-page {
-      flex-direction: column;
-    }
-
-    .wine-info, .wine-image {
-      margin-right: 0;
-      margin-bottom: 20px; /* add space between stacked sections */
-    }
-
-    .wine-image img {
-      max-width: 100%; /* full width on mobile */
-    }
+    margin: 0; /* no extra margins */
   }
 
 </style>
