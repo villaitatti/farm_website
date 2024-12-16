@@ -4,7 +4,10 @@ title: "Rosso Toscano 2024"
 description: "Vino Rosso Toscano, annata 2024"
 ---
 
-<h1 class="page-wine-title">Rosso Toscano 2024</h1>
+<section class="hero-section">
+  <div class="hero-overlay">
+    <div class="hero-content">
+      <h1 class="page-wine-title">Rosso Toscano 2024</h1>
 
 <div class="wine-page">
 
@@ -85,3 +88,6 @@ description: "Vino Rosso Toscano, annata 2024"
   </div>
 
 </div>
+    </div>
+  </div>
+</section>
