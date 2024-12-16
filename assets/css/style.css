@@ -182,3 +182,30 @@ nav.primary-navigation ul li ul li:hover>ul {
 ul li ul li a {
     transition: all 0.5s ease;
 }
+
+/* Mobile Media Query */
+@media (max-width: 600px) {
+    .wine-info {
+        width: 180px;
+        /* Make left column narrower on smaller screens */
+        margin-right: 5px;
+    }
+
+    .wine-image img {
+        max-width: 200px;
+        /* Reduce image width for smaller screens */
+    }
+
+    .nutritional-values th,
+    .nutritional-values td {
+        padding: 6px;
+        /* Slightly reduce padding */
+        font-size: 14px;
+        /* Slightly smaller font for small screens */
+    }
+
+    h1 {
+        font-size: 1.2em;
+        /* Slightly smaller title on mobile */
+    }
+}
