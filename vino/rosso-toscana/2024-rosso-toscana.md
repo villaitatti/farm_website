@@ -16,15 +16,13 @@ Benvenuti nella pagina dedicata al nostro **Rosso Toscana 2024**. Qui troverete 
     <th colspan="2">100 ml</th>
   </tr>
   <tr>
-    <td>Energia</td>
+    <td rowspan="2">Energia</td>
     <td>Kj</td>
     <td>322</td>
   </tr>
   <tr>
-    <td>Energia</td>
     <td>Kcal</td>
     <td>77</td>
   </tr>
-</table>
 
 
