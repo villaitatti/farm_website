@@ -85,7 +85,7 @@ Stabilizzanti:
 
   <!-- Right Column -->
   <div style="flex: 1; text-align: left;">
-    <img src="/assets/images/vino/rosso-toscana/2024-rosso-roscana-label.png" alt="Etichetta Rosso Toscana 2024" style="max-width: 300px; height: auto;">
+    <img src="/assets/images/vino/rosso-toscano/2024-rosso-toscano-label.png" alt="Etichetta Rosso Toscano 2024" style="max-width: 300px; height: auto;">
   </div>
 
 </div>
