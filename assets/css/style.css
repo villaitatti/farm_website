@@ -45,7 +45,28 @@
   table.nutritional-values tr:hover td {
     background-color: #eef;
   }
+/* You might also want to style the table a bit */
+.nutritional-values {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 300px;
+}
 
+.nutritional-values th,
+.nutritional-values td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.nutritional-values th {
+    background-color: #f8f8f8;
+    font-weight: bold;
+}
+
+.page-wine-title {
+    color: #ab192d;
+}
 
 nav.primary-navigation {
     margin: 0 auto;

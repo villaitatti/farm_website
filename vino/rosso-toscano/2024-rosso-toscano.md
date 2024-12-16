@@ -46,31 +46,9 @@ description: "Vino Rosso Toscano, annata 2024"
     }
   }
 
-  /* You might also want to style the table a bit */
-  .nutritional-values {
-    border-collapse: collapse;
-    width: 100%;
-    max-width: 300px;
-  }
-
-  .nutritional-values th, 
-  .nutritional-values td {
-    border: 1px solid #ccc;
-    padding: 8px;
-    text-align: left;
-  }
-
-  .nutritional-values th {
-    background-color: #f8f8f8;
-    font-weight: bold;
-  }
-
-    .wine-title {
-    color: #ab192d;
-  }
 </style>
 
-<h1 class="wine-title">Rosso Toscano 2024</h1>
+<h1 class="page-wine-title">Rosso Toscano 2024</h1>
 
 <div class="wine-page">
 
@@ -79,7 +57,7 @@ description: "Vino Rosso Toscano, annata 2024"
     <table class="nutritional-values">
       <tr>
         <th>Valori nutrizionali medi</th>
-        <th colspan="2" style="text-aling:center;">100 ml</th>
+        <th colspan="2" style="text-align:center;">100 ml</th>
       </tr>
       <tr>
         <td rowspan="2">Energia</td>
