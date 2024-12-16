@@ -4,7 +4,7 @@ title: "Rosso Toscana 2024"
 description: "Vino Rosso Toscana, annata 2024"
 ---
 
-# Rosso Toscana 2024
+# Rosso Toscano 2024
 
 <div style="display: flex; gap: 20px; align-items: flex-start;">
 
