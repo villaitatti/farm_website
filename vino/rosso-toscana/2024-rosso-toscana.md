@@ -10,7 +10,7 @@ Benvenuti nella pagina dedicata al nostro **Rosso Toscana 2024**. Qui troverete 
 
 ![Etichetta del Rosso Toscana 2024](/assets/images/wines/rosso-toscana/rosso-toscana-2024-label.jpg)
 
-<table>
+<table class="nutritional-values">
   <tr>
     <th>Valori nutrizionali medi</th>
     <th colspan="2">100 ml</th>
