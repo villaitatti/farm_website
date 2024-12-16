@@ -1,60 +1,14 @@
-<nav class="top-nav" style="float: right;margin-right: 10rem;">
-  <ul style="list-style: none; margin: 0; padding: 0;">
-    <!-- Vino Menu -->
-    <li style="display: inline-block; position: relative;">
-      <a href="#" style="text-decoration: none; padding: 8px;">Vino ▼</a>
-      <ul
-        style="list-style: none; position: absolute; background: #fff; border: 1px solid #ccc; display: none; margin: 0; padding: 0;">
-        <li style="position: relative;">
-          <a href="#" style="display: block; padding: 8px; text-decoration: none;">Rosso Toscana ▼</a>
-          <ul
-            style="list-style: none; position: absolute; top: 0; left: 100%; background: #fff; border: 1px solid #ccc; display: none; margin: 0; padding: 0;">
-            <li><a href="/vino/rosso-toscano/2024-rosso-toscano.html"
-                style="display: block; padding: 8px; text-decoration: none;">Rosso Toscana 2024</a></li>
+<nav role="navigation" class="primary-navigation">
+  <ul>
+    <li><a href="#">Vino &dtrif;</a>
+      <ul class="dropdown">
+        <li><a href="#">Rosso Toscano &dtrif;</a>
+          <ul class="dropdown">
+            <li><a href="/vino/rosso-toscano/2024-rosso-toscano.md">Rosso Toscano 2024</a></li>
           </ul>
         </li>
       </ul>
     </li>
-
-    <!-- Olio Menu -->
-    <li style="display: inline-block; position: relative;">
-      <a href="/olio/index.html" style="text-decoration: none; padding: 8px;">Olio</a>
-    </li>
+    <li><a href="/olio/index.html">Olio</a></li>
   </ul>
 </nav>
-
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-      var topNav = document.querySelector('.top-nav');
-
-      // For the first level dropdowns (e.g. "Vino")
-      var topLevelItems = topNav.querySelectorAll('ul > li');
-      topLevelItems.forEach(function (item) {
-        if (item.querySelector('ul')) {
-          item.addEventListener('mouseenter', function () {
-            var submenu = item.querySelector('ul');
-            if (submenu) submenu.style.display = 'block';
-          });
-          item.addEventListener('mouseleave', function () {
-            var submenu = item.querySelector('ul');
-            if (submenu) submenu.style.display = 'none';
-          });
-        }
-      });
-
-      // For the second level dropdowns (e.g. "Rosso Toscana")
-      var secondLevelItems = topNav.querySelectorAll('ul ul li');
-      secondLevelItems.forEach(function (subitem) {
-        if (subitem.querySelector('ul')) {
-          subitem.addEventListener('mouseenter', function () {
-            var submenu = subitem.querySelector('ul');
-            if (submenu) submenu.style.display = 'block';
-          });
-          subitem.addEventListener('mouseleave', function () {
-            var submenu = subitem.querySelector('ul');
-            if (submenu) submenu.style.display = 'none';
-          });
-        }
-      });
-    });
-</script>
