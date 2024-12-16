@@ -364,7 +364,7 @@ nav.primary-navigation .mobile-menu li ul li {
             display: none;
         }
     
-    .nav-mobile {
+    nav.primary-navigation .nav-mobile {
         display: inline-block;
         text-align: right;
         width: 100%;
