@@ -79,7 +79,7 @@ description: "Vino Rosso Toscano, annata 2024"
     <table class="nutritional-values">
       <tr>
         <th>Valori nutrizionali medi</th>
-        <th colspan="2">100 ml</th>
+        <th colspan="2" style="text-aling:center;">100 ml</th>
       </tr>
       <tr>
         <td rowspan="2">Energia</td>
