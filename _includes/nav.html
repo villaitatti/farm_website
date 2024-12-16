@@ -25,36 +25,36 @@
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    var topNav = document.querySelector('.top-nav');
+      var topNav = document.querySelector('.top-nav');
 
-    // For the first level dropdowns (e.g. "Vino")
-    var topLevelItems = topNav.querySelectorAll('> ul > li');
-    topLevelItems.forEach(function (item) {
-      if (item.querySelector('ul')) {
-        item.addEventListener('mouseenter', function () {
-          var submenu = item.querySelector('ul');
-          if (submenu) submenu.style.display = 'block';
-        });
-        item.addEventListener('mouseleave', function () {
-          var submenu = item.querySelector('ul');
-          if (submenu) submenu.style.display = 'none';
-        });
-      }
-    });
+      // For the first level dropdowns (e.g. "Vino")
+      var topLevelItems = topNav.querySelectorAll('ul > li');
+      topLevelItems.forEach(function (item) {
+        if (item.querySelector('ul')) {
+          item.addEventListener('mouseenter', function () {
+            var submenu = item.querySelector('ul');
+            if (submenu) submenu.style.display = 'block';
+          });
+          item.addEventListener('mouseleave', function () {
+            var submenu = item.querySelector('ul');
+            if (submenu) submenu.style.display = 'none';
+          });
+        }
+      });
 
-    // For the second level dropdowns (e.g. "Rosso Toscana")
-    var secondLevelItems = topNav.querySelectorAll('ul ul li');
-    secondLevelItems.forEach(function (subitem) {
-      if (subitem.querySelector('ul')) {
-        subitem.addEventListener('mouseenter', function () {
-          var submenu = subitem.querySelector('ul');
-          if (submenu) submenu.style.display = 'block';
-        });
-        subitem.addEventListener('mouseleave', function () {
-          var submenu = subitem.querySelector('ul');
-          if (submenu) submenu.style.display = 'none';
-        });
-      }
+      // For the second level dropdowns (e.g. "Rosso Toscana")
+      var secondLevelItems = topNav.querySelectorAll('ul ul li');
+      secondLevelItems.forEach(function (subitem) {
+        if (subitem.querySelector('ul')) {
+          subitem.addEventListener('mouseenter', function () {
+            var submenu = subitem.querySelector('ul');
+            if (submenu) submenu.style.display = 'block';
+          });
+          subitem.addEventListener('mouseleave', function () {
+            var submenu = subitem.querySelector('ul');
+            if (submenu) submenu.style.display = 'none';
+          });
+        }
+      });
     });
-  });
 </script>
