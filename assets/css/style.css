@@ -50,7 +50,7 @@
 nav.primary-navigation {
     margin: 0 auto;
     display: block;
-    padding: 120px 0 0 0;
+    padding: 1rem 0 0 0;
     text-align: center;
     font-size: 16px;
 }
@@ -58,7 +58,7 @@ nav.primary-navigation {
 nav.primary-navigation ul li {
     list-style: none;
     margin: 0 auto;
-    border-left: 2px solid #3ca0e7;
+    border-left: 2px solid #ab192d;
     display: inline-block;
     padding: 0 30px;
     position: relative;
@@ -112,7 +112,7 @@ nav.primary-navigation ul li ul li {
 
 nav.primary-navigation ul li ul li a:hover {
     padding-left: 10px;
-    border-left: 2px solid #3ca0e7;
+    border-left: 2px solid #ab192d;
     transition: all 0.3s ease;
 }
 
