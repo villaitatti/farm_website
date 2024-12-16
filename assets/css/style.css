@@ -73,7 +73,7 @@ nav.primary-navigation li a {
 }
 
 nav.primary-navigation li a:hover {
-    color: #3ca0e7;
+    color: #ab192d;
 }
 
 nav.primary-navigation li:hover {
@@ -118,7 +118,7 @@ nav.primary-navigation ul li ul li a:hover {
 
 /* For the third-level dropdowns */
 nav.primary-navigation ul li ul li ul {
-    left: 100%;
+    left: 81%;
     top: 0;
     visibility: hidden;
     opacity: 0;
