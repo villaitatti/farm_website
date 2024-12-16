@@ -1,14 +1,65 @@
 <nav role="navigation" class="primary-navigation">
-  <ul>
-    <li><a href="#">Vino &dtrif;</a>
-      <ul class="dropdown">
-        <li><a href="#">Rosso Toscano &dtrif;</a>
-          <ul class="dropdown">
-            <li><a href="/vino/rosso-toscano/2024-rosso-toscano.html">Rosso Toscano 2024</a></li>
-          </ul>
-        </li>
-      </ul>
-    </li>
-    <li><a href="/olio/index.html">Olio</a></li>
-  </ul>
+  <div class="nav-desktop">
+    <ul>
+      <li><a href="#">Vino &dtrif;</a>
+        <ul class="dropdown">
+          <li><a href="#">Rosso Toscano &dtrif;</a>
+            <ul class="dropdown">
+              <li><a href="/vino/rosso-toscano/2024-rosso-toscano.html">Rosso Toscano 2024</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><a href="/olio/index.html">Olio</a></li>
+    </ul>
+  </div>
+
+  <!-- Hamburger for mobile -->
+  <div class="nav-mobile">
+    <button class="menu-toggle" aria-label="Open menu">≡</button>
+    <ul class="mobile-menu">
+      <li>
+        <button class="submenu-toggle">Vino ▼</button>
+        <ul class="dropdown">
+          <li>
+            <button class="submenu-toggle">Rosso Toscano ▼</button>
+            <ul class="dropdown">
+              <li><a href="/vino/rosso-toscano/2024-rosso-toscano.html">Rosso Toscano 2024</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><a href="/olio/index.html">Olio</a></li>
+    </ul>
+  </div>
 </nav>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var menuToggle = document.querySelector(".menu-toggle");
+    var mobileMenu = document.querySelector(".mobile-menu");
+
+    menuToggle.addEventListener("click", function () {
+      if (mobileMenu.style.display === "block") {
+        mobileMenu.style.display = "none";
+      } else {
+        mobileMenu.style.display = "block";
+      }
+    });
+
+    // Handle submenu toggles
+    var submenuToggles = document.querySelectorAll(".submenu-toggle");
+    submenuToggles.forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        var submenu = btn.nextElementSibling;
+        if (submenu && submenu.tagName.toLowerCase() === 'ul') {
+          if (submenu.style.display === "block") {
+            submenu.style.display = "none";
+          } else {
+            submenu.style.display = "block";
+          }
+        }
+      });
+    });
+  });
+</script>
