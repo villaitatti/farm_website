@@ -6,9 +6,10 @@ description: "Vino Rosso Toscana, annata 2024"
 
 # Rosso Toscana 2024
 
-Benvenuti nella pagina dedicata al nostro **Rosso Toscana 2024**. Qui troverete la foto dell’etichetta e le informazioni nutrizionali.
+<div style="display: flex; gap: 20px; align-items: flex-start;">
 
-![Etichetta del Rosso Toscana 2024](/assets/images/wines/rosso-toscana/rosso-toscana-2024-label.jpg)
+  <!-- Left Column -->
+  <div style="flex: 1;">
 
 <table class="nutritional-values">
   <tr>
@@ -60,5 +61,24 @@ Benvenuti nella pagina dedicata al nostro **Rosso Toscana 2024**. Qui troverete 
     <td>0</td>
   </tr>
 </table>
+
+### Ingredienti
+- Uva
+
+### Conservanti
+- blabla
+
+### Stabilizzanti
+- bla
+- bla
+
+</div>
+
+  <!-- Right Column -->
+  <div style="flex: 1; text-align: center;">
+    <img src="/assets/images/vino/rosso-toscana/2024-label.png" alt="Etichetta Rosso Toscana 2024" style="max-width: 100%; height: auto;">
+  </div>
+
+</div>
 
 
