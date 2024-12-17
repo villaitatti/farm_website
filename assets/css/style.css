@@ -46,15 +46,6 @@ header {
         /* small gap between text and image */
     }
 
-    /* Right column: just the image, aligned left by default */
-    .wine-image img {
-        display: block;
-        max-width: 300px;
-        height: auto;
-        margin: 0;
-        /* no extra margins */
-    }
-
 /* NUTRITIONAL VALUES */
   table.nutritional-values {
     border-collapse: collapse;
@@ -177,9 +168,10 @@ header {
 
 /* Right Content - Wine Bottle Image */
 .wine-image img {
-    max-width: 100%;
-    height: auto;
     display: block;
+    max-width: 300px;
+    height: auto;
+    margin: 0;
 }
 
 /* Responsive adjustments */
