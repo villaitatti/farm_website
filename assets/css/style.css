@@ -320,6 +320,16 @@ nav.primary-navigation .mobile-menu li ul li {
     margin-bottom: 5px;
 }
 
+/* Remove bullets for all levels of the mobile menu */
+nav.primary-navigation .mobile-menu,
+nav.primary-navigation .mobile-menu ul,
+nav.primary-navigation .mobile-menu li {
+    list-style: none;
+    /* Removes all bullet points */
+    margin: 0;
+    padding: 0;
+}
+
 /* Mobile Media Query */
 @media (max-width: 600px) {
     
