@@ -270,6 +270,7 @@ nav.primary-navigation .menu-toggle {
     font-size: 1.5em;
     padding: 0.5em;
     cursor: pointer;
+    color: #ab192d;
 }
 
 /* Mobile menu (hidden by default) */
