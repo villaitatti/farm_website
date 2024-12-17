@@ -31,21 +31,8 @@ header {
     text-align: left;
   }
 
-  table.nutritional-values th {
-    /*background-color: #f8f8f8;*/
-    font-weight: bold;
-  }
-
-  table.nutritional-values td {
-    /*background-color: #fff;*/
-  }
-
-  table.nutritional-values tr:nth-child(even) td {
-    /*background-color: #f9f9f9;*/
-  }
-
   table.nutritional-values tr:hover td {
-    background-color: #eef;
+    background: rgba(255, 255, 255, 0.1);
   }
 /* You might also want to style the table a bit */
 .nutritional-values {
