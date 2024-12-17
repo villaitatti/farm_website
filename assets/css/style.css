@@ -86,7 +86,7 @@ header {
     color: #fff;
     background: rgba(100, 115, 103, 0.8);
     /* Semi-transparent background */
-    border-radius: 8px;
+    /*border-radius: 8px;*/
     padding: 2rem;
     height: 100%;
         /* Makes the hero-content take up the full section height */
