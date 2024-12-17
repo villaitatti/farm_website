@@ -14,38 +14,6 @@ header {
 }
 
 
-.product-cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.card {
-    width: 300px;
-    margin: 20px;
-    text-align: center;
-}
-
-.card img {
-    width: 100%;
-}
-
-
-/* WINE PAGE */
-    .wine-page {
-        display: flex;
-        align-items: flex-start;
-        /* No extra gap here. We'll control spacing via margin. */
-    }
-
-    /* Left column: fixed width so it doesn't stretch too far */
-    .wine-info {
-        width: 20vw;
-        /* Adjust as needed */
-        margin-right: 0.5rem;
-        /* small gap between text and image */
-    }
-
 /* NUTRITIONAL VALUES */
   table.nutritional-values {
     border-collapse: collapse;
@@ -63,16 +31,16 @@ header {
   }
 
   table.nutritional-values th {
-    background-color: #f8f8f8;
+    /*background-color: #f8f8f8;*/
     font-weight: bold;
   }
 
   table.nutritional-values td {
-    background-color: #fff;
+    /*background-color: #fff;*/
   }
 
   table.nutritional-values tr:nth-child(even) td {
-    background-color: #f9f9f9;
+    /*background-color: #f9f9f9;*/
   }
 
   table.nutritional-values tr:hover td {
@@ -125,12 +93,14 @@ header {
 .hero-content {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     position: relative;
     width: 50%;
     /* Half-page width for content */
     color: #fff;
-    padding: 2rem;
+    background: rgba(100, 115, 103, 0.8);
+    /* Semi-transparent background */
+    border-radius: 8px;
+    /* Optional: Adds rounded corners */
 }
 
 /* Left Content - Nutritional Values */
