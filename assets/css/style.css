@@ -59,6 +59,7 @@ header {
 
 .hero-section {
     position: relative;
+    z-index: 1;        /* Lower z-index for hero section */
     width: 100%;
     height: calc(100vh - 80px);
     background: url('/assets/images/itatti-farm-background.jpg') no-repeat center center;
@@ -165,6 +166,13 @@ nav.primary-navigation {
     text-align: center;
     font-size: 16px;
     position: relative;
+    z-index: 1000;       /* High z-index to place it above other content */
+}
+
+nav.primary-navigation .nav-desktop ul li ul,
+nav.primary-navigation .nav-desktop ul li ul li ul {
+    z-index: 1001;
+    /* Higher z-index for dropdowns */
 }
 
 /* Desktop Menu */
