@@ -114,7 +114,6 @@ header {
     position: relative;
     width: 100%;
     height: 100vh;
-    /* full viewport height, adjust as needed */
     background: url('/assets/images/itatti-farm-background.jpg') no-repeat center center;
     background-size: cover;
     display: flex;
@@ -125,57 +124,62 @@ header {
 .hero-overlay {
     position: absolute;
     top: 0;
-    right: 0;
-    bottom: 0;
     left: 0;
+    width: 100%;
+    height: 100%;
     background: rgba(0, 0, 0, 0.3);
-    /* A dark overlay for better text readability */
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    /* Dark overlay */
 }
 
 .hero-content {
-    position: relative;
     display: flex;
-    align-items: flex-end;
-    /* adjust flex direction/alignment 
-     depending on how you want the bottle and text arranged */
-}
-
-/* Bottle styling */
-.hero-bottle {
-    max-width: 200px;
-    /* Adjust size as needed */
-    margin-right: 2rem;
-    /* Space between bottle and text */
-}
-
-/* Text styling */
-.hero-text {
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 50%;
+    /* Half-page width for content */
     color: #fff;
-    max-width: 400px;
-    /* Constrain text width for readability */
+    padding: 2rem;
 }
 
-.hero-text h1 {
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
+/* Left Content - Nutritional Values */
+.wine-info {
+    flex: 1;
+    max-width: 50%;
 }
 
-.hero-text h2 {
-    font-size: 2rem;
+.wine-info h1 {
+    font-size: 3rem;
     margin-bottom: 1rem;
 }
 
-.hero-text .highlight {
-    color: #ab192d;
-    /* A highlight color to emphasize text */
+.wine-info h3 {
+    margin-top: 1rem;
 }
 
-.hero-text p {
-    margin-top: 2rem;
-    font-size: 1rem;
+.nutritional-values {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.nutritional-values th,
+.nutritional-values td {
+    border: 1px solid #fff;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+.nutritional-values th {
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+
+/* Right Content - Wine Bottle Image */
+.wine-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 /* Responsive adjustments */
