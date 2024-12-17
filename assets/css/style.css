@@ -147,8 +147,9 @@ header {
         margin-bottom: 1rem;
     }
 
-    .hero-text h1 {
+    .wine-info h1 {
         font-size: 2rem;
+        width: 70vw;
     }
 
     .hero-text h2 {
@@ -337,15 +338,9 @@ nav.primary-navigation .mobile-menu li ul li {
         padding: 0.5rem;
     }
 
-    .wine-info {
-        width: 180px;
-        /* Make left column narrower on smaller screens */
-        margin-right: 5px;
-    }
-
     .wine-image img {
-        max-width: 200px;
-        /* Reduce image width for smaller screens */
+        max-width: 180px;
+        margin-top: 20vh;
     }
 
     .nutritional-values th,
