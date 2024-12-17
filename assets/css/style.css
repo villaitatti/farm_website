@@ -93,7 +93,6 @@ header {
 
 .hero-content {
     display: flex;
-    align-items: center;
     position: relative;
     width: 50%;
     /* Half-page width for content */
