@@ -100,7 +100,7 @@ header {
     background: rgba(100, 115, 103, 0.8);
     /* Semi-transparent background */
     border-radius: 8px;
-    /* Optional: Adds rounded corners */
+    padding: 2rem;
 }
 
 /* Left Content - Nutritional Values */
