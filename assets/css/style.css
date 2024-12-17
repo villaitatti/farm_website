@@ -326,8 +326,6 @@ nav.primary-navigation .mobile-menu ul,
 nav.primary-navigation .mobile-menu li {
     list-style: none;
     /* Removes all bullet points */
-    margin: 0;
-    padding: 0;
 }
 
 /* Mobile Media Query */
