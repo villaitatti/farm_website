@@ -60,9 +60,10 @@ header {
     position: relative;
     z-index: 1;        /* Lower z-index for hero section */
     width: 100%;
-    height: calc(100vh - 80px);
+    min-height: calc(100vh - 80px);
     background: url('/assets/images/itatti-farm-background.jpg') no-repeat center center;
     background-size: cover;
+    background-attachment: fixed;     /* Fix the background to create parallax effect */
     display: flex;
     align-items: center;
     justify-content: center;
