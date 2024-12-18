@@ -50,7 +50,7 @@ header {
     text-align: left;
 }
 
-.nutritional-values th
+.nutritional-values th,
 .table-raccolta-differenziata th {
     background-color: #f8f8f8;
     font-weight: bold;
