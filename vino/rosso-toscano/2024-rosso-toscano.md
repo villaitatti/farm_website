@@ -77,6 +77,10 @@ description: "Vino Rosso Toscano, annata 2024"
           <li>Poliaspartato di potassio</li>
           <li>Gomma arabica</li>
         </ul>
+      <div>
+      <h2>Raccolta Differenziata</h2>
+      </div>
+
       </div>
 
       <!-- Wine Bottle Image on the Right -->
