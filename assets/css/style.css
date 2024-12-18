@@ -50,12 +50,6 @@ header {
     text-align: left;
 }
 
-.nutritional-values th,
-.table-raccolta-differenziata th {
-    background-color: #f8f8f8;
-    font-weight: bold;
-}
-
 /*  Raccolta differenziata */
 table.table-raccolta-differenziata {
     border-collapse: collapse;
@@ -130,9 +124,11 @@ table.table-raccolta-differenziata {
     text-align: left;
 }
 
-.nutritional-values th {
+.nutritional-values th,
+.table-raccolta-differenziata th {
     background: rgba(255, 255, 255, 0.1);
     color: #fff;
+    font-weight: bold;
 }
 
 .raccolta-differenziata {
