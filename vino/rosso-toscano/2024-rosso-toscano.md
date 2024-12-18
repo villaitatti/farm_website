@@ -78,7 +78,25 @@ description: "Vino Rosso Toscano, annata 2024"
           <li>Gomma arabica</li>
         </ul>
       <div class="raccolta-differenziata">
-      <h2>Raccolta Differenziata</h2>
+        <h2>Raccolta Differenziata</h2>
+        <table class="nutritional-values">
+          <tr>
+            <th style="text-align:center;">Bottiglia</th>
+            <th style="text-align:center;">Tappo</th>
+            <th style="text-align:center;">Capsula</th>
+          </tr>
+          <tr>
+            <td>GL 71</td>
+            <td>FOR 51</td>
+            <td>C/PVC 90</td>
+          </tr>
+          <tr>
+            <td>Raccolta Vetro</td>
+            <td>Racoolta Organico</td>
+            <td>Raccolta Plastica</td>
+          </tr>
+        </table>
+        <p>Verifica le disposizioni del tuo comune</p>
       </div>
 
       </div>
