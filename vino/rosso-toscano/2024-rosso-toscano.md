@@ -79,7 +79,7 @@ description: "Vino Rosso Toscano, annata 2024"
         </ul>
       <div class="raccolta-differenziata">
         <h2>Raccolta Differenziata</h2>
-        <table class="nutritional-values">
+        <table class="table-raccolta-differenziata">
           <tr>
             <th style="text-align:center;">Bottiglia</th>
             <th style="text-align:center;">Tappo</th>

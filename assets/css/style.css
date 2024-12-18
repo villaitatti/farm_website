@@ -52,6 +52,15 @@ header {
     font-weight: bold;
 }
 
+/*  Raccolta differenziata */
+table.table-raccolta-differenziata {
+    border-collapse: collapse;
+    margin: 1rem 0;
+    width: 95%;
+    max-width: 400px;
+}
+
+
 .page-wine-title {
     color: #ab192d;
 }
