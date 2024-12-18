@@ -86,14 +86,14 @@ description: "Vino Rosso Toscano, annata 2024"
             <th style="text-align:center;">Capsula</th>
           </tr>
           <tr>
-            <td>GL 71</td>
-            <td>FOR 51</td>
-            <td>C/PVC 90</td>
+            <td style="text-align:center;">GL 71</td>
+            <td style="text-align:center;">FOR 51</td>
+            <td style="text-align:center;">C/PVC 90</td>
           </tr>
           <tr>
-            <td>Raccolta Vetro</td>
-            <td>Racoolta Organico</td>
-            <td>Raccolta Plastica</td>
+            <td style="text-align:center;">Raccolta Vetro</td>
+            <td style="text-align:center;">Racoolta Organico</td>
+            <td style="text-align:center;">Raccolta Plastica</td>
           </tr>
         </table>
         <p>Verifica le disposizioni del tuo comune</p>
