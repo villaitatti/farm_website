@@ -122,6 +122,10 @@ header {
     color: #fff;
 }
 
+.raccolta-differenziata {
+    margin-top: 2rem;
+}
+
 /* Right Content - Wine Bottle Image */
 .wine-image img {
     display: block;
