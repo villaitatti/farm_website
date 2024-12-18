@@ -24,13 +24,16 @@ header {
   }
 
   table.nutritional-values th, 
-  table.nutritional-values td {
+  table.nutritional-values td,
+  table.table-raccolta-differenziata th,
+  table.table-raccolta-differenziata td {
     border: 1px solid #ccc;
     padding: 8px 12px;
     text-align: left;
   }
 
-  table.nutritional-values tr:hover td {
+  table.nutritional-values tr:hover td,
+  table.table-raccolta-differenziata tr:hover td {
     background: rgba(255, 255, 255, 0.1);
   }
 /* You might also want to style the table a bit */
@@ -47,7 +50,8 @@ header {
     text-align: left;
 }
 
-.nutritional-values th {
+.nutritional-values th
+.table-raccolta-differenziata th {
     background-color: #f8f8f8;
     font-weight: bold;
 }
