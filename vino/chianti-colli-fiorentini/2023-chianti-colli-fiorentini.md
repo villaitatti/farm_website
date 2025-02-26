@@ -19,11 +19,11 @@ description: "Vino Chianti Colli Fiorentini, annata 2023"
           <tr>
             <td rowspan="2">Energia</td>
             <td>Kj</td>
-            <td>322</td>
+            <td>346</td>
           </tr>
           <tr>
             <td>Kcal</td>
-            <td>77</td>
+            <td>83</td>
           </tr>
           <tr>
             <td>Grassi</td>
@@ -38,12 +38,12 @@ description: "Vino Chianti Colli Fiorentini, annata 2023"
           <tr>
             <td>Carboidrati</td>
             <td>g</td>
-            <td>0,06</td>
+            <td>0</td>
           </tr>
           <tr>
             <td>di cui zuccheri</td>
             <td>g</td>
-            <td>0,06</td>
+            <td>0</td>
           </tr>
           <tr>
             <td>Fibre</td>
